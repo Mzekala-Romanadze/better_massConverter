@@ -6,10 +6,8 @@ while unit != "T" or unit != "KG":
 amount = float(input("Amount: "))
 
 if unit == "T":
-	print(f"{amount * 1000} Kg.")
+	print(f"{amount * 1000} KG.")
 
 elif unit == "KG":
-	print(f"{amount / 1000} Kg.")
+	print(f"{amount / 1000} KG.")
 
-else:
-	print("Error!")
