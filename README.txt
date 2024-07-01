@@ -1,1 +1,2 @@
-Mass converter program (T/KG).
+This is Mass converter python program (T/KG).
+
