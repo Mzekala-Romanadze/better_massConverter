@@ -1,8 +1,8 @@
 
+unit = input("T or KG? ").upper()
+while unit != "T" or unit != "KG":
+	unit = input("Invalid input. Enter 'T' or 'KG'" ).upper()
 
-
-
-unit = input("T or KG? ")
 amount = float(input("Amount: "))
 
 if unit == "T":
@@ -13,4 +13,3 @@ elif unit == "KG":
 
 else:
 	print("Error!")
-	
